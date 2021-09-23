@@ -1,2 +1,2 @@
 # University-of-Denver-Course-Work
-This is a repository of some important commands and concepts i learned during my Bootcamp. 
+This is a repository of some important Scripts and concepts I learned during my Bootcamp. 

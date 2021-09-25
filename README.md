@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 ***The proper format was not working, so I put the URL to the image. Just CNTL + Click the link.*** 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __YAML__ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
   - Calvin-A-Cyber/University-of-Denver-Course-Work/Ansible/Filebeat-Playbook.yml
 

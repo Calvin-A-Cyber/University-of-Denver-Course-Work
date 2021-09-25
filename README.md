@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 ***The proper format was not working, so I put the URL to the image. Just CNTL + Click the link.*** 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __YAML__ file may be used to install only certain pieces of it, such as Filebeat.
 
   - Calvin-A-Cyber/University-of-Denver-Course-Work/Ansible/Filebeat-Playbook.yml
 
@@ -113,13 +113,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 
-Copy the ELK-Stack-Playbook.yml, Filebeat-Playbook.yml and Metricbeat_Playbook.yml files to /etc/ansible directory.
-Update the Playbook files to include the machine you want to use the playbook on the hosts line, which is the third line from the top. For the ELK-Stack-Playbook my machine is 10.1.0.4 which is under my ELK Webservers in my hosts file. As for the Filebeat and Metricbeat Playbooks, update the third hosts lines to the normal Webservers group that includes Web-1, Web-2 and Web-3.
-**Link to Screenshot of hosts file**: https://github.com/Calvin-A-Cyber/University-of-Denver-Course-Work/blob/main/Images/Hosts%20file.PNG
-Run the playbooks, and navigate to http://ELKStackPublicIP:5601/app/kibana to check that the installations worked as expected.
+- Copy the ELK-Stack-Playbook.yml, Filebeat-Playbook.yml and Metricbeat_Playbook.yml files to /etc/ansible directory.
+- Update the Playbook files to include the machine you want to use the playbook on the hosts line, which is the third line from the top. For the ELK-Stack-Playbook my machine is 10.1.0.4 which is under my ELK Webservers in my hosts file. As for the Filebeat and Metricbeat Playbooks, update the third hosts lines to the normal Webservers group that includes Web-1, Web-2 and Web-3.
+- **Link to Screenshot of hosts file**: https://github.com/Calvin-A-Cyber/University-of-Denver-Course-Work/blob/main/Images/Hosts%20file.PNG
+- Run the playbooks, and navigate to http://ELKStackPublicIP:5601/app/kibana to check that the installations worked as expected.
 
 Answer the following questions to fill in the blanks:
 
-The playbook files are **ELK-Stack-Playbook.yml**, **Filebeat-Playbook.yml** and **Metricbeat-Playbook.yml**. You copy the playbook files to your /roles directory with this direct path **/etc/ansible/roles**.
-The file you need to update in order to tell Ansible to run a Playbook on a specific machine is first the hosts file. You have to add the machine that you want to run the Playbook on to a group, for the ELK webserver group i added machine 10.1.0.4. To specify which machine to install ELK on versus Filebeat is not in the Playbook files. In the ELK-Stack-Playbook on the third line is the hosts: line. Add the group that you created in the previous step explained above by simply typing in the name of the group and saving the file. Once the files is saved, run the playbook and confirm the script ran correctly. 
-In order to confirm the ELK stack is running properly, navigate the URL http://ELKStackPublicIP:5601/app/kibana and check that data is coming to the ELK server.
+- The playbook files are **ELK-Stack-Playbook.yml**, **Filebeat-Playbook.yml** and **Metricbeat-Playbook.yml**. You copy the playbook files to your /roles directory with this direct path **/etc/ansible/roles**.
+- The file you need to update in order to tell Ansible to run a Playbook on a specific machine is first the hosts file. You have to add the machine that you want to run the Playbook on to a group, for the ELK webserver group i added machine 10.1.0.4. To specify which machine to install ELK on versus Filebeat is not in the Playbook files. In the ELK-Stack-Playbook on the third line is the hosts: line. Add the group that you created in the previous step explained above by simply typing in the name of the group and saving the file. Once the files is saved, run the playbook and confirm the script ran correctly. 
+- In order to confirm the ELK stack is running properly, navigate the URL http://ELKStackPublicIP:5601/app/kibana and check that data is coming to the ELK server.

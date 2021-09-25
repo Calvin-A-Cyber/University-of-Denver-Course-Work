@@ -25,9 +25,9 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 
-- A load balancer protects the network by sitting in front of the servers and routes internet traffic to a certain server depending on the availability of that server. So, a load balancer can protect a network against DDOS (Denial of  Service) attacks by routing traffic in a way that does not shut down servers from too many requests. _
+- A load balancer protects the network by sitting in front of the servers and routes internet traffic to a certain server depending on the availability of that server. So, a load balancer can protect a network against DDOS (Denial of  Service) attacks by routing traffic in a way that does not shut down servers from too many requests. 
 - The advantage of using a Jump-box on your network is huge when talking about cyber security. By using a Jump-box as a secure point for all admins to connect to before jumping into their network, blocks all traffic that is not from that Jump-box from access their network. When critical information is at risk, this can keep it safe from attackers. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **logs** and system __data__.

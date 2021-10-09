@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-! https://github.com/Calvin-A-Cyber/University-of-Denver-Course-Work/blob/main/Diagrams/Creating-Deploying%20an%20ELK%20Stack.drawio%20(1).png)
+! https://github.com/Calvin-A-Cyber/University-of-Denver-Course-Work/blob/main/Images/Diagrams/Creating-Deploying%20an%20ELK%20Stack.drawio.png
 
 ***The proper format was not working, so I put the URL to the image. Just CNTL + Click the link.*** 
 

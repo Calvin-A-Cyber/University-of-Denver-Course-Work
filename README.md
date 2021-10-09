@@ -54,7 +54,7 @@ Only the **Jump-box** machine can accept connections from the Internet. Access t
 
 - My public IP address (I do not want to disclose this address)
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by The Jumpbox.
 
 - The Jump-box is the machine that has access to the ELK Stack VM. The IP address is 10.0.0.4
 

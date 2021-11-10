@@ -63,9 +63,9 @@ A summary of the access policies in place can be found in the table below.
 | Name                       | Publicly Accessible | Allowed IP Addresses |
 | -------------------------- | ------------------- | -------------------- |
 | Jump Box                   | Yes                 | My Public IP Address |
-| Web-1                      | No                  | 10.0.0.4             |
-| Web-2                      | No                  | 10.0.04              |
-| Web-3                      | No                  | 10.0.04              |
+| Web-1                      | No                  | 10.0.0.7             |
+| Web-2                      | No                  | 10.0.06              |
+| Web-3                      | No                  | 10.0.09              |
 | Project-1-VM-1 (ELK Stack) | No                  | 10.0.04              |
 
 ### Elk Configuration
